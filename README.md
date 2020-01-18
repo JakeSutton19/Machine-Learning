@@ -1,4 +1,6 @@
-# Machine-Learning
-Machine Learning Projects Folder.
+# Machine Learning (Non Traditional Learning)
+I am investigating different methods of data engineering to accurately model and predict the world.
 
-## NCAA March Madness Predictor
+
+## Credit
+Author: Jacob Sutton 

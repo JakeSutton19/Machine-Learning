@@ -40,12 +40,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/human/Machine-Learning/NCAA"
+		"/home/human/Machine-Learning"
 	],
 	"file_history":
 	[
-		"/home/human/Machine-Learning/.gitignore",
-		"/home/human/Machine-Learning/README.md"
+		"/home/human/Machine-Learning/NCAA/README.md",
+		"/home/human/Machine-Learning/README.md",
+		"/home/human/Machine-Learning/.gitignore"
 	],
 	"find":
 	{
@@ -121,7 +122,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "ncaa.sublime-project",
+	"project": "machine.sublime-project",
 	"replace":
 	{
 		"height": 0.0

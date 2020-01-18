@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 #NCAA
-TESTS/
-Models/
+Tests/
+BASE/
+REPOS/
