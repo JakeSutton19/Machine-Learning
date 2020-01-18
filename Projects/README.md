@@ -2,4 +2,4 @@
 Machine Learning Projects Folder.
 
 ## Active Projects 
-1. NCAA March Madness Predictor
+1. NCAA March Madness Predictor (Training in Development)

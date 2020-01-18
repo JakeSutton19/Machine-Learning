@@ -40,13 +40,26 @@
 	},
 	"expanded_folders":
 	[
-		"/home/human/Machine-Learning"
+		"/home/human/Machine-Learning",
+		"/home/human/Machine-Learning/Base"
 	],
 	"file_history":
 	[
-		"/home/human/Machine-Learning/NCAA/README.md",
+		"/home/human/Machine-Learning/Base/RL/test.py",
+		"/home/human/Machine-Learning/Base/RL/train.py",
+		"/home/human/Machine-Learning/Base/RL/Environment/__init__.py",
+		"/home/human/Machine-Learning/Base/RL/Brain/__init__.py",
+		"/home/human/Machine-Learning/.gitignore",
 		"/home/human/Machine-Learning/README.md",
-		"/home/human/Machine-Learning/.gitignore"
+		"/home/human/Machine-Learning/Projects/README.md",
+		"/home/human/Machine-Learning/BASE/README.md",
+		"/home/human/Machine-Learning/TESTS/environment.py",
+		"/home/human/Machine-Learning/TESTS/train.py",
+		"/home/human/Machine-Learning/TESTS/test.py",
+		"/home/human/Simulator/environment.yml",
+		"/home/human/Simulator/SIMULATOR/Car/Controls/car_control.py",
+		"/home/human/Machine-Learning/RL/test.py",
+		"/home/human/Machine-Learning/NCAA/README.md"
 	],
 	"find":
 	{
@@ -159,7 +172,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
