@@ -3,10 +3,23 @@
 	{
 		"selected_items":
 		[
+			[
+				"html",
+				"html_doc"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/human/Machine-Learning/Tools/WebScraper.py",
+			"settings":
+			{
+				"buffer_size": 202,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -41,17 +54,21 @@
 	"expanded_folders":
 	[
 		"/home/human/Machine-Learning",
-		"/home/human/Machine-Learning/Base"
+		"/home/human/Machine-Learning/Tools"
 	],
 	"file_history":
 	[
+		"/home/human/Machine-Learning/.gitignore",
+		"/home/human/Machine-Learning/Projects/NCAA/Environment/environment.py",
+		"/home/human/Machine-Learning/Projects/NCAA/README.md",
+		"/home/human/Machine-Learning/Projects/NCAA/Brain/brain.py",
+		"/home/human/Machine-Learning/Projects/NCAA/Brain/dqn.py",
+		"/home/human/Machine-Learning/Projects/README.md",
 		"/home/human/Machine-Learning/Base/RL/test.py",
 		"/home/human/Machine-Learning/Base/RL/train.py",
 		"/home/human/Machine-Learning/Base/RL/Environment/__init__.py",
 		"/home/human/Machine-Learning/Base/RL/Brain/__init__.py",
-		"/home/human/Machine-Learning/.gitignore",
 		"/home/human/Machine-Learning/README.md",
-		"/home/human/Machine-Learning/Projects/README.md",
 		"/home/human/Machine-Learning/BASE/README.md",
 		"/home/human/Machine-Learning/TESTS/environment.py",
 		"/home/human/Machine-Learning/TESTS/train.py",
@@ -94,8 +111,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/human/Machine-Learning/Tools/WebScraper.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -176,7 +223,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 203.0,
+	"side_bar_width": 218.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
