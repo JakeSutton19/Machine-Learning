@@ -27,15 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/human/Machine-Learning/Base/test.py",
-			"settings":
-			{
-				"buffer_size": 1529,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -69,17 +60,21 @@
 	},
 	"expanded_folders":
 	[
-		"/home/human/Machine-Learning"
 	],
 	"file_history":
 	[
+		"/home/human/Machine-Learning/Main/train.py",
 		"/home/human/Machine-Learning/.gitignore",
+		"/home/human/Machine-Learning/Main/test.py",
+		"/home/human/Machine-Learning/Experiments/ReinforcementLearning/PolicyGradient/reinforce/reinforce_cnn_tf.py",
+		"/home/human/Machine-Learning/Experiments/ReinforcementLearning/PolicyGradient/reinforce/main_tf_reinforce_space_invaders.py",
+		"/home/human/Machine-Learning/Main/Environment/environment.py",
+		"/home/human/Machine-Learning/Base/test.py",
 		"/home/human/NCAA/README.md",
 		"/home/human/NCAA/NCAA/README.md",
 		"/home/human/Machine-Learning/Base/train.py",
 		"/home/human/Machine-Learning/Base/Environment/environment.py",
 		"/home/human/Machine-Learning/Exp/DQN-Navigation/navigation.py",
-		"/home/human/Machine-Learning/Base/test.py",
 		"/home/human/Machine-Learning/NCAA/Data/data_bot.py",
 		"/home/human/Machine-Learning/Tools/WebScraper.py",
 		"/home/human/Machine-Learning/Projects/NCAA/Environment/environment.py",
@@ -135,39 +130,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/human/Machine-Learning/Base/test.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1529,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								187,
-								187
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -252,7 +216,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 180.0,
+	"side_bar_width": 370.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
