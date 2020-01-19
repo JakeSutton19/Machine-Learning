@@ -9,7 +9,7 @@ import time
 #Defining the parameters
 waitTime = 75
 nLastStates = 4
-file = 'model3-1.h5'
+file = 'Model3.h5'
 filePathToOpen = 'MODELS/{}'.format(file)
 nCollected = 0
 

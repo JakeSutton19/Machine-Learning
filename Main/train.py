@@ -17,7 +17,7 @@ epsilon = 1.
 epsilonDecayRate = 0.00002
 minLastEpsilon = 0.05
 
-filePathToSave = 'MODELS/model3.h5'
+filePathToSave = 'MODELS/Model4.h5'
 
 #Initializing the environment, the brain and the Experience Replay Memory
 env = Environment(0)
