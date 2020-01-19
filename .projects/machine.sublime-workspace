@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"yea",
+				"years"
+			],
+			[
+				"fa",
+				"fail_files"
+			],
+			[
+				"cu",
+				"current_season"
+			],
+			[
+				"Fin",
+				"Find_Data"
+			],
+			[
 				"html",
 				"html_doc"
 			]
@@ -12,12 +28,12 @@
 	"buffers":
 	[
 		{
-			"file": "/home/human/Machine-Learning/Tools/WebScraper.py",
+			"file": "/home/human/Machine-Learning/Base/test.py",
 			"settings":
 			{
-				"buffer_size": 202,
+				"buffer_size": 1529,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -53,12 +69,19 @@
 	},
 	"expanded_folders":
 	[
-		"/home/human/Machine-Learning",
-		"/home/human/Machine-Learning/Tools"
+		"/home/human/Machine-Learning"
 	],
 	"file_history":
 	[
 		"/home/human/Machine-Learning/.gitignore",
+		"/home/human/NCAA/README.md",
+		"/home/human/NCAA/NCAA/README.md",
+		"/home/human/Machine-Learning/Base/train.py",
+		"/home/human/Machine-Learning/Base/Environment/environment.py",
+		"/home/human/Machine-Learning/Exp/DQN-Navigation/navigation.py",
+		"/home/human/Machine-Learning/Base/test.py",
+		"/home/human/Machine-Learning/NCAA/Data/data_bot.py",
+		"/home/human/Machine-Learning/Tools/WebScraper.py",
 		"/home/human/Machine-Learning/Projects/NCAA/Environment/environment.py",
 		"/home/human/Machine-Learning/Projects/NCAA/README.md",
 		"/home/human/Machine-Learning/Projects/NCAA/Brain/brain.py",
@@ -80,7 +103,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -94,6 +117,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Collect_Data_Bot"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -116,25 +140,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/human/Machine-Learning/Tools/WebScraper.py",
+					"file": "/home/human/Machine-Learning/Base/test.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 202,
+						"buffer_size": 1529,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								131,
-								131
+								187,
+								187
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -148,7 +173,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -185,7 +210,7 @@
 	"project": "machine.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -199,12 +224,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Kevin/.ProjectFiles/kevin.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -223,7 +252,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 218.0,
+	"side_bar_width": 180.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
