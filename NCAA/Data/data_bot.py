@@ -107,6 +107,6 @@ class Data_Bot:
 
 
 
-if __name__ == '__main__':
-    bot = Data_Bot()
-    bot.Run()
+# if __name__ == '__main__':
+#     bot = Data_Bot()
+#     bot.Run()
