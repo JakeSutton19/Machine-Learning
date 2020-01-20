@@ -1,7 +1,6 @@
 #NCAA
 Experiments/
-Base/
-Install/
+.ENV/
 # MODELS/
 Tools/
 
