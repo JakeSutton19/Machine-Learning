@@ -1,7 +1,7 @@
 #NCAA
 Experiments/
-.ENV/
-# MODELS/
+.env/
+MODELS/
 Tools/
 
 

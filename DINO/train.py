@@ -224,13 +224,13 @@ for n in range(N):
     eps = 1.0/np.sqrt(n+1)
     if eps < 0.1:
         eps = 0.1
-    print("Playing another episode {}...".format(n))
+    # print("Playing another episode {}...".format(n))
     totalreward = play_one(env, enet, tnet, 0.99, eps, 100)
-    print("Episode finished.")
+    # print("Episode finished.")
     totalrewards[n] = totalreward
-    print("Attained reward this episode is: ", totalreward)
-    if n % 10 == 0:
-        print("Episode: ", n, "Epsilon: ", eps, "Avg.Reward (Last 100): ", totalrewards[max(0, n-100):(n+1)].mean())
+    # print("Attained reward this episode is: ", totalreward)
+    # if n % 10 == 0:
+    print("Episode: {},  Epsilon: {:.3f}, Reward: {:.3f}, Avg.Reward (Last 100): {:.3f}".format(n, eps, totalreward, totalrewards[max(0, n-100):(n+1)].mean()))
     saver.save(sess, 'MODELS/M1/dino.ckpt')
 print("Avg. Reward for the last 100 Episodes: ", totalrewards[-100:].mean())
 print("Total Steps: ", totalrewards.sum())
