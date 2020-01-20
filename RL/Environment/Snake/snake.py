@@ -176,10 +176,12 @@ class Snake():
         if (reward == self.defReward):
             self.steps_alive_count += 1
         elif (reward == self.posReward):
-            if (self.steps_alive_count < 5):
+            if (self.steps_alive_count >= 10):
                 reward += .5
+            elif (self.steps_alive_count >= 5 and self.steps_alive_count < 10):
+                reward += .1
             else:
-                reward -= .02
+                reward -= .01
         else:
             self.steps_alive_count = 0
 

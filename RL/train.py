@@ -7,14 +7,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Defining the parameters
-learningRate = 0.002
-maxMemory = 60000
-gamma = 0.9
+learningRate = 0.001
+maxMemory = 80000
+gamma = 0.95
 batchSize = 32
 nLastStates = 4
 
 epsilon = 1.
-epsilonDecayRate = 0.0001
+epsilonDecayRate = 0.00002
 minLastEpsilon = 0.05
 
 filePathToSave = 'MODELS/Model4.h5'
@@ -100,5 +100,5 @@ while True:
     #     totNCollected = 0
     #     model.save(filePathToSave)
     #     break
-
-    print('Epoch ' + str(epoch) + ' Current Best: ' + str(maxNCollected) + ' Epsilon:  {:.5f}'.format(epsilon))
+    if epoch % 25 == 0 and epoch != 0:
+        print('Epoch Batch: {},  Current Best Score: {},  Epsilon:  {:.5f}'.format(str(epoch), str(maxNCollected), epsilon))
