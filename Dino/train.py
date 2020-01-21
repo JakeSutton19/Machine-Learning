@@ -9,7 +9,6 @@ import gym_chrome_dino
 
 
 class Conv2D:
-
     def __init__(self, mi, mo, filtersz=5, stride=2, f=tf.nn.relu):
         self.W = tf.Variable(tf.random_normal(shape=(filtersz, filtersz, mi, mo)))
         b0 = np.zeros(mo, dtype=np.float32)
@@ -25,7 +24,6 @@ class Conv2D:
 
 
 class HiddenLayer:
-    
     def __init__(self, Mi, Mo, f=tf.nn.relu):
         self.W = tf.Variable(tf.random_normal((Mi, Mo)))
         self.b = tf.Variable(np.zeros((1, Mo)).astype(np.float32))
@@ -38,7 +36,6 @@ class HiddenLayer:
         
         
 class DQN:
-
     def __init__(self, K, conv_layer_sizes, hidden_layer_sizes, max_exp=50000, min_exp=5000, batch_sz=32):
         self.batch_sz = batch_sz
         self.max_exp = max_exp
@@ -197,8 +194,8 @@ sess.run(tf.global_variables_initializer())
 enet.set_session(sess)
 tnet.set_session(sess)
 saver = tf.train.Saver()
-# saver.restore(sess, './dino.ckpt')
-# print("Populating experience replay buffer...")
+# saver.restore(sess, 'MODELS/M1/dino.ckpt')
+# print("[INFO]: Populating experience replay buffer.")
 # s = env.reset()
 # seq_state = []
 # for i in range(4):
@@ -215,26 +212,29 @@ saver = tf.train.Saver()
 #             seq_state = update_state(seq_state, s)
 #     else:
 #         seq_state = next_seq_state
-# print("Replay buffer population procedure complete.")
-print("Initializing training procedure now.")
+print("[INFO]: Initializing training procedure now.")
 N = 100
+eps = 1.
+Decay = 0.01
+gamma = .99
+
 totalrewards = np.empty(N)
 costs = np.empty(N)
 for n in range(N):
-    eps = 1.0/np.sqrt(n+1)
+    eps = eps - Decay
     if eps < 0.1:
         eps = 0.1
     # print("Playing another episode {}...".format(n))
-    totalreward = play_one(env, enet, tnet, 0.99, eps, 100)
+    totalreward = play_one(env, enet, tnet, gamma, eps, 100)
     # print("Episode finished.")
     totalrewards[n] = totalreward
     # print("Attained reward this episode is: ", totalreward)
     # if n % 10 == 0:
-    print("Episode: {},  Epsilon: {:.3f}, Reward: {:.3f}, Avg.Reward (Last 100): {:.3f}".format(n, eps, totalreward, totalrewards[max(0, n-100):(n+1)].mean()))
-    saver.save(sess, 'MODELS/M1/dino.ckpt')
+    print("Episode: {},  Epsilon: {:.3f}, Reward: {:.3f}".format(n, eps, totalreward))
+saver.save(sess, 'MODELS/M1/dino.ckpt')
 print("Avg. Reward for the last 100 Episodes: ", totalrewards[-100:].mean())
 print("Total Steps: ", totalrewards.sum())
-plt.plot(totalrewards)
-plt.title("Rewards")
-plt.show()
-plot_running_avg(totalrewards)
+# plt.plot(totalrewards)
+# plt.title("Rewards")
+# plt.show()
+# plot_running_avg(totalrewards)
